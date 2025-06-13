@@ -5,12 +5,18 @@
 
 html {
 	overflow-y: scroll;
-	background-color: black;
+}
+
+#bck {
+	background: url('images/back.png') no-repeat center center fixed; 
+	background-size: cover;
+	height: 120vh;
+	width: 100vw;
+	position: fixed;
+	z-index: -1;
 }
 
 body {
-	background: url('images/back.png') no-repeat center center fixed; 
-	background-size: cover;
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -584,7 +590,6 @@ body {
 		height: 100%;
 		font-size: 0.8em;
 		padding: 10px;
-		padding-right: 0;
 	}
 	
 	.p-button {

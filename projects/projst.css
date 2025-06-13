@@ -6,7 +6,15 @@
 html {
 	overflow-x: hidden;
 	overflow-y: hidden;
-	background-color: black;
+}
+
+#bck {
+	background: url('../images/back.png') no-repeat center center fixed; 
+	background-size: cover;
+	height: 120vh;
+	width: 100vw;
+	position: fixed;
+	z-index: -1;
 }
 
 body {
@@ -14,8 +22,6 @@ body {
     display: flex;
     flex-direction: column;
 	overflow-x: hidden;
-	background: url('../images/back.png') no-repeat center center fixed; 
-	background-size: cover;
 	font-kerning: normal;
 }
 
