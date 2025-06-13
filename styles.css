@@ -5,11 +5,12 @@
 
 html {
 	overflow-y: scroll;
-	background: url('images/back.png') no-repeat center center fixed; 
-	background-size: cover;
+	background-color: rgb(20, 20, 20);
 }
 
 body {
+	background: url('images/back.png') no-repeat center center fixed; 
+	background-size: cover;
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
