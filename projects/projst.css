@@ -6,15 +6,8 @@
 html {
 	overflow-x: hidden;
 	overflow-y: hidden;
-}
-
-#bck {
 	background: url('../images/back.png') no-repeat center center fixed; 
 	background-size: cover;
-	height: 120vh;
-	width: 100vw;
-	position: fixed;
-	z-index: -1;
 }
 
 body {
